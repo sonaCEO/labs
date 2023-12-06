@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  /* background-color: #eff4fd */
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #eff4fd;
+}
+
+.secondContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #eff4fd;
+}
+
+.person {
+  /* height was added */
+  /* height: 100%;  */
+  margin-left: 8%;
+  position: relative;
+}
+
+.secondPerson {
+  height: 100%; 
+  margin-left: 8%;
+  position: absolute;
+  /* background-color: #eff4fd */
+}
+
+#hiddenContent {
+  background-color: #212121;
+  gap: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 300px;
+  width: 600px;
+  padding: 20px 20px;
+  overflow-y: hidden;
+}
+
+#secondHiddenContent {
+  background-color: #212121;
+  gap: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 300px;
+  width: 600px;
+  padding: 20px 20px;
+  overflow-y: hidden;
+}
+
+.labs {
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.person h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+  padding-top: 100px;
+}
+
+.secondPerson h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+  padding-top: 100px;
+}
+
+span {
+  color: orange;
+}
+
+.person p {
+  color: #251818;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.secondPerson p {
+  color: #251818;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.labs {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.labs h3 {
+  color: orange;
+  /* padding-bottom: 5px; */
+}
+
+.labs p {
+  font-size: 14px;
+}
+
+.labs a {
+  width: 100px !important;
+  overflow-y: hidden;
+}
+
+/* .hiddenContent a {
+  width: 80px !important;
+  height: 10px;
+} */
+
+.person a {
+  width: 30%;
+  text-align: center;
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.secondPerson a {
+  width: 30%;
+  text-align: center;
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.person button {
+  background-color: #ffa500;
+  padding: 10px 18px;
+  color: #212121;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.secondPerson button {
+  background-color: #ffa500;
+  padding: 10px 18px;
+  color: #212121;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.images {
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+
+.secondImages {
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  right: 50px;
+}
+
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.secondImages img {
+  height: 100%;
+  position: absolute;
+  left: 58%;
+  bottom: 0;
+  transform: translate(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.images .firstGirl {
+  top: -10%;
+  left: 40%;
+  border-radius: 50%;
+}
+
+.images .secondGirl {
+  /* top: 50%; */
+  /* bottom: 0px; */
+  /* position: fixed; */
+  left: 40%;
+  border-radius: 50%;
+}
+
+.images:hover .shape {
+  bottom: 40px;
+}
+
+.secondImages:hover .shape1 {
+  bottom: 40px;
+}
+
+.images:hover .firstGirl {
+  left: 45%;
+}
+
+.secondImages:hover .secondGirl {
+  left: 45%;
+}
